@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    background-image: url("images/bgi.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    height: 1500px;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+.navbar{
+    width: 100%;
+    height:75px;
+    margin: auto;
+}
+.icon{
+    width: 400px;
+    
+    height: 90px;
+}
+.logo{
+    color: blueviolet;
+    font-size: 50px;
+    font-family: Arial;
+    float:left;
+    padding-top: 30px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+}
+ul {
+    list-style-type: none;
+    margin-left: 10px;
+    padding: 30px;
+    
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: darkorange;
+    text-align: center;
+    padding: 14px 14px;
+    text-decoration: none;
+    margin-left: 20%;
+    font-size: 32px;
+  }
+  
+  li a:hover {
+    color:darkgreen;
+  }
+  .srch{
+    margin-top: 15px;
+    border-bottom-left-radius:5px ;
+    border-bottom-right-radius:5px ;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border: 1px solid blue;
+    padding: 10px;
+    text-align: center;
+   
+  }
+  .btn{
+    width: 150%;
+    height: 40px;
+    padding: 10px;
+    margin-right: 20px;
+    border-bottom-left-radius:5px ;
+    border-bottom-right-radius:5px ;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border: 1px solid darkmagenta;
+    color: aqua;
+    background-color: blueviolet;
+    cursor: pointer;
+  }
+  .but{
+    cursor:pointer;
+    border: 1px solid darkcyan;
+    padding: 15px;
+    width: 80px;
+  }
+ .image-section{
+  padding-left: 0;
+ }
+ .image-section img{
+  width: 100%;
+  display: block;
+  height: 500px;
+ 
+ }
+     
+  .container-fluid{
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    display: flex;
+    padding: 10px;
+    margin-top: 20px;
+   
+  }
+  .head{
+    color: darkblue;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 60px;
+    padding-left: 30%;
+  }
+  .para{
+    color: deeppink;
+    font-size: 32px;
+    padding-left: 50px;
+    display: inline-block;
+    width: 600px;
+
+  }
+  .specific{
+    color: forestgreen;
+  }
+  .slide{
+    display: inline;
+   padding-left: 10%;
+  
+  
+  }
+input{
+  border: 2px solid rgb(255, 127, 249);
+  border-radius: 10px;
+  background-color: chartreuse;
+}
+button{
+  border: 4px solid darkturquoise;
+  border-radius: 20px;
+  padding: 10px;
+}
+button:hover{
+  background-color: rgb(255, 217, 0);
+}
+.back{
+  width: 100%;
+  background-image: url(images/bg.jpg);
+  background-attachment: fixed;
+    background-position: center;
+    height: 1800px;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+.image-side{
+  background-image: url(images/bgi.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  height: 2500px;
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+.img img{
+  opacity: 10%;
+  border: 2px solid darkviolet;
+  border-radius: 10px;
+}
+.submission{
+  background-image: url(images/bg.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  height: 2500px;
+  background-repeat:no-repeat;
+  background-size: cover;
+}

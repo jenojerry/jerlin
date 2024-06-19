@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main-content{
+            width: 100%;
+            background-image: url(images/bgi.jpg);
+            background-attachment: fixed;
+    background-position: center;
+    height: 1000px;
+    background-repeat:no-repeat;
+    background-size: cover;
+        }
+        input{
+    border: 2px solid aquamarine;
+    border-radius: 10px;
+    background-color: chartreuse;
+}
+button{
+    border: 4px solid darkorchid;
+    border-radius: 20px;
+    padding: 10px;
+}
+button:hover{
+    background-color: aqua;
+}
+aside{
+    width: 30%;
+  padding-left: 15px;
+  padding-bottom: 10px;
+  margin-left: 15px;
+  float: right;
+  font-style: italic;
+  background-color: rgb(196, 173, 194);
+}
+
+    </style>
+</head>
+<body>
+    <div class="main-content">
+    <header>
+        <center>
+        <h1 style="color: blueviolet;">Put Your Contact Information</h1>
+    </center>
+    </header>
+    
+    <form>
+     <h2 style="color: rgb(17, 119, 202);">Please fill the registration form to create an account</h2>   
+    <label style="color: black;">First Name:</label><br>
+    <input type="fname" name="firstname" placeholder="enter your first name"><br><br>
+    <label>Last Name:</label><br>
+    <input type="lname" name="lastname" placeholder="enter your last name"><br><br>
+    <label>Enter your Email:</label><br>
+    <input type="email" name="email" placeholder="enter your email"><br><br>
+    <label>Enter your Password:</label><br>
+    <input type="password" name="password" placeholder="enter your password"><br><br>
+    <label>Repeat your password:</label><br>
+    <input type="password" name="password" placeholder="repeat your password"><br><br> 
+    <label>Enter your Mobile no.:</label><br>
+    <input pattern="[0-9]{10}"><br><br>
+    
+    <button type="submit">Submit</button>
+    <button type="button" header onclick="alert('Your Account Was Created !!!')">Submission Finished</button><br><br>
+    <button type="submit" formnovalidate>Submit without validation</button><br><br>
+    <button type="submit" formaction="detail.html">Submit to another page</button><br>
+    
+     <div>
+        <h1 style="color: rgb(80, 22, 187);">Declaration Section</h1>
+        <p style="color: rgb(231, 62, 104);">Lorem, ipsum dolor sit amet consectetur adipisicing elit.<br> Quaerat voluptas consequatur maxime voluptatem nihil.<br> Quia libero obcaecati,<br> consequuntur animi iusto deserunt ad? <br>Officiis doloribus beatae, molestias deleniti quibusdam eligendi velit.</p>
+        <a href="web.html">GO TO HOME PAGE</a>
+     </div>
+     <div>
+        <aside>
+            <h1 style="color: blueviolet;">Define for Declaration</h1>
+        <p>Lorem ipsum dolor sit, <br>amet consectetur adipisicing elit.<br> Aliquid sunt atque sequi architecto sit libero eum <br>rem natus delectus iure nisi incidunt,<br> facere accusantium corporis nobis officiis optio minus in.</p>
+        </aside>
+     </div>
+</form>  
+</div>
+</body>
+</html>
